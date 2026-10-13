@@ -1,29 +1,5 @@
-# python
-.venv/
-__pycache__/
-*.pyc
-*.egg-info/
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-
-# node
-node_modules/
-frontend/dist/
-frontend/test-results/
-frontend/playwright-report/
-
-# runtime artifacts (authoritative run dirs live under var/)
-var/
-backend/tests/_out/
-*.log
-
-# secrets
-.env
-.env.*
-!.env.example
-
+node_modules
+dist
 .DS_Store
-
-# screenshot loop output (large PNGs; key frames are embedded in the PR)
-/visual-reviews/
+*.log
+.vercel
